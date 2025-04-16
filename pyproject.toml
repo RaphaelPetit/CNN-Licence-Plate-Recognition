@@ -1,0 +1,22 @@
+[project]
+name = "license-plate-recognition"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Osman Pontes", email = "osmanpontes@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = [
+  "pygobject (>=3.52.3,<4.0.0)",
+  "ultralytics (>=8.3.103,<9.0.0)",
+  "easyocr (>=1.7.2,<2.0.0)",
+  "torch (>=2.6.0,<3.0.0)",
+  "torchvision (>=0.21.0,<0.22.0)",
+  "torchaudio (>=2.6.0,<3.0.0)",
+  "tensorflow-macos (>=2.14.0,<3.0.0)",
+  "opencv-python-headless (>=4.11.0.86,<5.0.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
